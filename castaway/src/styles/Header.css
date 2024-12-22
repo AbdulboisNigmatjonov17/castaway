@@ -1,0 +1,31 @@
+.Header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 100px;
+}
+.rightHeader {
+  text-align: left;
+}
+.rightHeader section {
+  color: #fff;
+}
+.rightHeader .content {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.rightHeader .content p {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 100;
+}

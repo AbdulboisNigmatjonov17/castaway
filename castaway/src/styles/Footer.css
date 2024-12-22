@@ -1,0 +1,24 @@
+.Footer {
+  /* margin-top: 50px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.footerContainer ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

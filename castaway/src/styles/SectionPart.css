@@ -1,0 +1,76 @@
+.all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.topPart {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.topPart .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  text-align: left;
+  gap: 50px;
+  width: 600px;
+}
+.topPart .content img {
+  transform: rotate(270deg);
+}
+.topPart .content span {
+  color: #118da8;
+}
+.topPart .content h1 {
+  font-weight: 100;
+}
+.topPart .content p {
+  color: rgba(255, 255, 255, 70%);
+}
+.bottomPart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomPart .gmail {
+  min-width: 50%;
+  height: 250px;
+  border-radius: 20px;
+  display: flex;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.gmailContent {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.gmailContent h1 {
+  color: #fff;
+}
+.gmailContent span {
+  color: #118da8;
+  font-size: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input {
+  width: 350px;
+  height: 50px;
+  background-color: #191919;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}

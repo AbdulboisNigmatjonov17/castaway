@@ -1,0 +1,32 @@
+.Navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav img {
+  margin-left: 100px;
+}
+nav ul {
+  margin-right: 100px;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+li a:focus {
+  color: rgba(17, 141, 168, 1);
+}
+li a:hover {
+  color: rgb(35, 90, 100);
+}
